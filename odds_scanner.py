@@ -16,17 +16,8 @@ API_KEY = "4e33248024942ca4651ab2f6d806c05d"
 
 LEAGUES = [
 
-    "soccer_epl",
+    "soccer_epl"
 
-    "soccer_spain_la_liga",
-
-    "soccer_germany_bundesliga",
-
-    "soccer_italy_serie_a",
-
-    "soccer_france_ligue_one",
-
-    "soccer_uefa_champs_league"
 
 ]
 
@@ -411,10 +402,10 @@ SIGNAL:
                             }
 
         print(
-            "\n⏳ Waiting 60 seconds...\n"
+            "\n⏳ Waiting 180 seconds...\n"
         )
 
-        time.sleep(60)
+        time.sleep(180)
 
     except Exception as e:
 
